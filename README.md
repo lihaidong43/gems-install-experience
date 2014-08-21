@@ -1,11 +1,13 @@
 gems install experience on Windows
 =======================
-== libv8
+==
+libv8
    when execute 'gem install libv8' on command line ,it will have some error just like :
    C:/Ruby193/lib/ruby/gems/1.9.1/gems/libv8-3.16.14.3/ext/libv8/builder.rb:58:in `setup_python!': libv8 requires python 2 to be installed in order to build, but it is currently not available (RuntimeError)
    and then you can install it with ' gem install libv8 -v '3.11.8.17' -- --with-system-v8'
 
-== puma
+==
+puma
    when you install puma gem on windows,just like 'gem install puma' ,it have some error like:
    generating puma_http11-i386-mingw32.def
    compiling http11_parser.c

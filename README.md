@@ -4,7 +4,7 @@ libv8
 ==
    when execute 'gem install libv8' on command line ,it will have some error just like :
    C:/Ruby193/lib/ruby/gems/1.9.1/gems/libv8-3.16.14.3/ext/libv8/builder.rb:58:in `setup_python!': libv8 requires python 2 to be installed in order to build, but it is currently not available (RuntimeError)
-   and then you can install it with ' gem install libv8 -v '3.11.8.17' -- --with-system-v8'
+   and then you can install it with **' gem install libv8 -v '3.11.8.17' -- --with-system-v8'**
 
 puma
 ==
@@ -25,7 +25,7 @@ compilation terminated.
 make: *** [mini_ssl.o] Error 1
 
   above error that remind to specify openssl ,you should download openssl package and specify it when install it,
-  gem install puma -v '2.5.0' -- --with-opt-dir=path/to/openssl
+  **gem install puma -v '2.5.0' -- --with-opt-dir=path/to/openssl**
   ps: if you devkit is x86 version ,that must use x86 ,or will occupy error also
   
 

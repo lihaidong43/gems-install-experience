@@ -1,5 +1,5 @@
-##Build native extension when install some gems on the Windows##
-**record some experience**
+##Build native extension ##
+**record some experience when install some gems on the Windows**
 ###libv8###
 
 will occupy error like this

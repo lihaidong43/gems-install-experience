@@ -42,24 +42,3 @@ puma dependent on openssl ,you need specify openssl dir when install puma gem,bu
 [https://github.com/takewo/therubyracer_windows](https://github.com/takewo/therubyracer_windows)
 
 
-
-
-
-
-
-
-
-C:/Betasoft/btso/runtime/ruby200/lib/ruby/gems/2.0.0/gems/daemons-1.1.9/lib/daemons/pid.rb:68:in `expand_path': no implicit conversion of Hash into String (TypeError)
-from C:/Betasoft/btso/runtime/ruby200/lib/ruby/gems/2.0.0/gems/daemons-1.1.9/lib/daemons/pid.rb:68:in `dir'
-from C:/Betasoft/btso/runtime/ruby200/lib/ruby/gems/2.0.0/gems/daemons-1.1.9/lib/daemons/application_group.rb:60:in `pidfile_dir'
-from C:/Betasoft/btso/runtime/ruby200/lib/ruby/gems/2.0.0/gems/daemons-1.1.9/lib/daemons/application_group.rb:56:in `setup'
-from C:/Betasoft/btso/runtime/ruby200/lib/ruby/gems/2.0.0/gems/daemons-1.1.9/lib/daemons/controller.rb:66:in `run'
-from C:/Betasoft/btso/runtime/ruby200/lib/ruby/gems/2.0.0/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
-from C:/Betasoft/btso/runtime/ruby200/lib/ruby/gems/2.0.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
-from C:/Betasoft/btso/runtime/ruby200/lib/ruby/gems/2.0.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
-from C:/Betasoft/btso/runtime/ruby200/lib/ruby/gems/2.0.0/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
-from C:/Betasoft/btso/runtime/comps/notification_server//script/run_delayed_job.rb:157:in `run_process'
-from C:/Betasoft/btso/runtime/ruby200/lib/ruby/gems/2.0.0/gems/delayed_job-4.0.3/lib/delayed/command.rb:91:in `block in daemonize'
-from C:/Betasoft/btso/runtime/ruby200/lib/ruby/gems/2.0.0/gems/delayed_job-4.0.3/lib/delayed/command.rb:89:in `times'
-from C:/Betasoft/btso/runtime/ruby200/lib/ruby/gems/2.0.0/gems/delayed_job-4.0.3/lib/delayed/command.rb:89:in `daemonize'
-from C:/Betasoft/btso/runtime/comps/notification_server//script/run_delayed_job.rb:167:in `<main>'
